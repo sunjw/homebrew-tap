@@ -6,7 +6,7 @@ cask "fhash" do
   desc "An open source files hash calculator for macOS."
   homepage "https://github.com/sunjw/fhash"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   livecheck do
     url "https://github.com/sunjw/fhash/releases"
