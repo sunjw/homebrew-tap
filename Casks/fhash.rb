@@ -1,6 +1,6 @@
 cask "fhash" do
-  version "26.8.48"
-  sha256 "26A254E34CBF8D7708E839ABF8B1307C5E596C26BA7A37ACE3944637D19AE1A7"
+  version "26.9.50"
+  sha256 "C5B2EF8D7452B8E963788F007C3F59E00F968446633BFBC6984DDD1DBF2F7FE5"
   url "https://github.com/sunjw/fhash/releases/download/#{version}/fHash-#{version}-macOS.dmg"
   name "fHash"
   desc "An open source files hash calculator for macOS."
