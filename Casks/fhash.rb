@@ -1,12 +1,12 @@
 cask "fhash" do
-  version "26.9.50"
-  sha256 "C5B2EF8D7452B8E963788F007C3F59E00F968446633BFBC6984DDD1DBF2F7FE5"
+  version "26.10.56"
+  sha256 "3eaaf7f245f9516abfd70b02c6ca06b5d6b4837a08b85fced765d0f35690dfc6"
   url "https://github.com/sunjw/fhash/releases/download/#{version}/fHash-#{version}-macOS.dmg"
   name "fHash"
   desc "An open source files hash calculator for macOS."
   homepage "https://github.com/sunjw/fhash"
 
-  depends_on macos: :sonoma
+  depends_on macos: :sequoia
 
   livecheck do
     url "https://github.com/sunjw/fhash/releases"
